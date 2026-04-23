@@ -127,6 +127,19 @@ logs/
 
 ---
 
+**Fluxo de Execução do Sistema | System Execution Flow**
+
+Tela principal / Main interface  
+![Tela Principal](images/TELA_PRINCIPAL.png)
+
+Processamento dos dados / Data processing  
+![Processamento](images/PROCESSAMENTO.png)
+
+Execução finalizada / Execution completed  
+![Finalizado](images/FINALIZADO.png)
+
+---
+
 **Segurança | Data Security**
 
 🇧🇷 Dados anonimizados e uso exclusivo para portfólio.
