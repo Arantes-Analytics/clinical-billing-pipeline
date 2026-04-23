@@ -51,16 +51,14 @@ arquivos/
 ## Planilha de Faturamento | Billing Spreadsheet
 
 🇧🇷
-A planilha principal deve conter a aba **FATURADO**.
+A planilha principal deve conter a aba FATURADO.
 
 Exemplo:
 
-```
 C:\Projeto Conciliação de Pagamentos\Clínica\FATURAMENTO 2026.xlsx
-```
 
 🇺🇸
-Main spreadsheet must include the **FATURADO** sheet.
+Main spreadsheet must include the FATURADO sheet.
 ---
 
 ## Dashboard (Power BI)
