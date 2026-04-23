@@ -1,36 +1,36 @@
 # 📊 Sistema de Processamento de Faturamento Hospitalar
 
-> 🇺🇸 Clinical Billing Data Processing System
+🇺🇸 Clinical Billing Data Processing System
 
 ---
 
-## Visão Geral | Overview
+**Visão Geral | Overview**
 
-🇧🇷
-Projeto desenvolvido para automatizar a leitura e conciliação de arquivos de pagamento de operadoras de saúde, atualizando automaticamente uma planilha de faturamento e alimentando dashboards analíticos.
-🇺🇸
-Project developed to automate the processing and reconciliation of healthcare billing files, updating a structured spreadsheet and feeding analytical dashboards.
+🇧🇷 Projeto desenvolvido para automatizar a leitura e conciliação de arquivos de pagamento de operadoras de saúde, atualizando automaticamente uma planilha de faturamento e alimentando dashboards analíticos.
 
----
-
-## Objetivo | Objective
-
-🇧🇷
-Automatizar a conferência de faturamento, reduzindo drasticamente o tempo operacional.
-🇺🇸
-Automate billing reconciliation, reducing manual work and improving reliability.
+🇺🇸 Project developed to automate the processing and reconciliation of healthcare billing files, updating a structured spreadsheet and feeding analytical dashboards.
 
 ---
 
-## Como Funciona | How It Works
+**Objetivo | Objective**
+
+🇧🇷 Automatizar a conferência de faturamento, reduzindo drasticamente o tempo operacional.
+
+🇺🇸 Automate billing reconciliation, reducing manual work and improving reliability.
+
+---
+
+**Como Funciona | How It Works**
 
 🇧🇷
+
 * Leitura de arquivos CSV, Excel e XML
 * Identificação automática da operadora
 * Processamento específico por tipo de arquivo
 * Atualização da planilha de faturamento
 
 🇺🇸
+
 * Reads CSV, Excel and XML files
 * Identifies provider automatically
 * Uses specific processors
@@ -38,7 +38,7 @@ Automate billing reconciliation, reducing manual work and improving reliability.
 
 ---
 
-## Estrutura de Entrada | Input Structure
+**Estrutura de Entrada | Input Structure**
 
 ```
 arquivos/
@@ -48,30 +48,30 @@ arquivos/
 ```
 
 ---
-## Planilha de Faturamento | Billing Spreadsheet
 
-🇧🇷
-A planilha principal deve conter a aba FATURADO.
+**Planilha de Faturamento | Billing Spreadsheet**
+
+🇧🇷 A planilha principal deve conter a aba **FATURADO**.
 
 Exemplo:
 
+```
 C:\Projeto Conciliação de Pagamentos\Clínica\FATURAMENTO 2026.xlsx
+```
 
-🇺🇸
-Main spreadsheet must include the FATURADO sheet.
+🇺🇸 Main spreadsheet must include the **FATURADO** sheet.
+
 ---
 
-## Dashboard (Power BI)
+**Dashboard (Power BI)**
 
-🇧🇷
-O arquivo `Dashboard.pbix` consome dados da pasta:
+🇧🇷 O arquivo `Dashboard.pbix` consome dados da pasta:
 
 ```
 Planilhas/
 ```
 
-🇺🇸
-The `Dashboard.pbix` reads data from:
+🇺🇸 The `Dashboard.pbix` reads data from:
 
 ```
 Planilhas/
@@ -79,7 +79,7 @@ Planilhas/
 
 ---
 
-## Logs e Tratamento de Erros | Logs & Error Handling
+**Logs e Tratamento de Erros | Logs & Error Handling**
 
 🇧🇷
 
@@ -99,7 +99,7 @@ logs/
 
 ---
 
-## Tecnologias | Technologies
+**Tecnologias | Technologies**
 
 * Python
 * Tkinter
@@ -109,7 +109,7 @@ logs/
 
 ---
 
-## Como Usar | How to Use
+**Como Usar | How to Use**
 
 🇧🇷
 
@@ -127,16 +127,14 @@ logs/
 
 ---
 
-## Segurança | Data Security
+**Segurança | Data Security**
 
-🇧🇷
-Dados anonimizados e uso exclusivo para portfólio.
+🇧🇷 Dados anonimizados e uso exclusivo para portfólio.
 
-🇺🇸
-Data anonymized for portfolio use.
+🇺🇸 Data anonymized for portfolio use.
 
 ---
 
-## Créditos | Credits
+**Créditos | Credits**
 
 Projeto desenvolvido em parceria com **LS Treinamentos**.
